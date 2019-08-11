@@ -1,0 +1,16 @@
+{
+  "name": "targilim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "jest": "^24.8.0"
+  },
+  "dependencies": {}
+}
