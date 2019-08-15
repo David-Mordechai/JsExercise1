@@ -1,4 +1,4 @@
-const lcs = require('./main');
+import lcs from './main.js';
 
 test("1.  'ABAZDC'      'BACBAD'    => 'ABAD'", () => {
     expect(lcs('ABAZDC', 'BACBAD')).toBe("ABAD");

@@ -1,5 +1,5 @@
 // Longest Common Subsequence - Dynamic Programming
-lcs = (s1, s2) => {
+export default function lcs(s1, s2) {
 
     var matrix = [];
     for (var i = 0; i < s1.length + 1; i++) {
@@ -32,5 +32,3 @@ lcs = (s1, s2) => {
     }
     return result.join('');
 }
-
-module.exports = lcs;
